@@ -28,7 +28,7 @@ jobs:
           -workspace PROD-Playground.xcworkspace
           -scheme PROD-Playground
           -destination 'platform=iOS Simulator,name=iPhone 11,OS=16.1'
-          -derivedDataPath ./build
+          -derivedDataPath ./build &> /dev/null
         continue-on-error: true
 
       - run: gem install trainer --version 0.9.1
