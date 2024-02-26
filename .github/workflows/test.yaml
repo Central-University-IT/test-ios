@@ -1,0 +1,49 @@
+name: Run tests
+
+on: deployment
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    name: Tests
+    runs-on: macos-12
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4.1.1
+      - uses: Central-University-IT/setup-test-ios@main
+      
+      - run: sudo xcode-select -switch /Applications/Xcode_14.1.app
+      - uses: maxim-lobanov/setup-cocoapods@v1
+        with:
+          version: 1.14.3
+
+      # TODO: add lock file, replace `pod update` with `pod update Solution`
+      - run: pod install
+      - run: pod update
+
+      - run: >-
+          xcodebuild test
+          -workspace PROD-Playground.xcworkspace
+          -scheme PROD-Playground
+          -destination 'platform=iOS Simulator,name=iPhone 11,OS=16.1'
+          -derivedDataPath ./build
+        continue-on-error: true
+
+      - run: gem install trainer --version 0.9.1
+      - run: trainer --path ./build -o . -f junit.xml
+
+      - run: cat junit.xml
+
+      - uses: Central-University-IT/junit-action@main
+        with:
+          files: junit.xml
+        id: junit
+
+      - uses: actions/upload-artifact@v4.0.0
+        with:
+          name: result
+          path: ${{ steps.junit.outputs.result_file }}
+          if-no-files-found: error
+          compression-level: 0

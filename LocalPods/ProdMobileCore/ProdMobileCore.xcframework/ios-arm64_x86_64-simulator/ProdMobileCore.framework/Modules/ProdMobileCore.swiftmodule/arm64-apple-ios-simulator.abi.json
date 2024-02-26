@@ -1,0 +1,2094 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ProdMobileCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageFactory",
+        "printedName": "ImageFactory",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageFactory",
+                "printedName": "ProdMobileCore.ImageFactory",
+                "usr": "s:14ProdMobileCore12ImageFactoryC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14ProdMobileCore12ImageFactoryCACycfc",
+            "mangledName": "$s14ProdMobileCore12ImageFactoryCACycfc",
+            "moduleName": "ProdMobileCore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "offerImage",
+            "printedName": "offerImage(id:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ProdMobileCore12ImageFactoryC05offerD02idSo7UIImageCSS_tF",
+            "mangledName": "$s14ProdMobileCore12ImageFactoryC05offerD02idSo7UIImageCSS_tF",
+            "moduleName": "ProdMobileCore",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerImage",
+            "printedName": "bannerImage(id:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ProdMobileCore12ImageFactoryC06bannerD02idSo7UIImageCSS_tF",
+            "mangledName": "$s14ProdMobileCore12ImageFactoryC06bannerD02idSo7UIImageCSS_tF",
+            "moduleName": "ProdMobileCore",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14ProdMobileCore12ImageFactoryC",
+        "mangledName": "$s14ProdMobileCore12ImageFactoryC",
+        "moduleName": "ProdMobileCore",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "IImageFactory",
+            "printedName": "IImageFactory",
+            "usr": "s:14ProdMobileCore13IImageFactoryP",
+            "mangledName": "$s14ProdMobileCore13IImageFactoryP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ProdMobileCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IImageFactory",
+        "printedName": "IImageFactory",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "offerImage",
+            "printedName": "offerImage(id:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ProdMobileCore13IImageFactoryP10offerImage2idSo7UIImageCSS_tF",
+            "mangledName": "$s14ProdMobileCore13IImageFactoryP10offerImage2idSo7UIImageCSS_tF",
+            "moduleName": "ProdMobileCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : ProdMobileCore.IImageFactory>",
+            "sugared_genericSig": "<Self where Self : ProdMobileCore.IImageFactory>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerImage",
+            "printedName": "bannerImage(id:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ProdMobileCore13IImageFactoryP11bannerImage2idSo7UIImageCSS_tF",
+            "mangledName": "$s14ProdMobileCore13IImageFactoryP11bannerImage2idSo7UIImageCSS_tF",
+            "moduleName": "ProdMobileCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : ProdMobileCore.IImageFactory>",
+            "sugared_genericSig": "<Self where Self : ProdMobileCore.IImageFactory>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14ProdMobileCore13IImageFactoryP",
+        "mangledName": "$s14ProdMobileCore13IImageFactoryP",
+        "moduleName": "ProdMobileCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ProdMobileCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ProdMobileCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IPersistenceStorage",
+        "printedName": "IPersistenceStorage",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "save",
+            "printedName": "save(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ProdMobileCore19IPersistenceStorageP4saveyyqd__AA12IdentifiableRd__lF",
+            "mangledName": "$s14ProdMobileCore19IPersistenceStorageP4saveyyqd__AA12IdentifiableRd__lF",
+            "moduleName": "ProdMobileCore",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : ProdMobileCore.IPersistenceStorage, τ_1_0 : ProdMobileCore.Identifiable>",
+            "sugared_genericSig": "<Self, Model where Self : ProdMobileCore.IPersistenceStorage, Model : ProdMobileCore.Identifiable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetch",
+            "printedName": "fetch(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_1_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_1_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ProdMobileCore19IPersistenceStorageP5fetchySayqd__Gqd__mAA12IdentifiableRd__lF",
+            "mangledName": "$s14ProdMobileCore19IPersistenceStorageP5fetchySayqd__Gqd__mAA12IdentifiableRd__lF",
+            "moduleName": "ProdMobileCore",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : ProdMobileCore.IPersistenceStorage, τ_1_0 : ProdMobileCore.Identifiable>",
+            "sugared_genericSig": "<Self, Model where Self : ProdMobileCore.IPersistenceStorage, Model : ProdMobileCore.Identifiable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "delete",
+            "printedName": "delete(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ProdMobileCore19IPersistenceStorageP6deleteyyqd__AA12IdentifiableRd__lF",
+            "mangledName": "$s14ProdMobileCore19IPersistenceStorageP6deleteyyqd__AA12IdentifiableRd__lF",
+            "moduleName": "ProdMobileCore",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : ProdMobileCore.IPersistenceStorage, τ_1_0 : ProdMobileCore.Identifiable>",
+            "sugared_genericSig": "<Self, Model where Self : ProdMobileCore.IPersistenceStorage, Model : ProdMobileCore.Identifiable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14ProdMobileCore19IPersistenceStorageP",
+        "mangledName": "$s14ProdMobileCore19IPersistenceStorageP",
+        "moduleName": "ProdMobileCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Identifiable",
+        "printedName": "Identifiable",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "identifier",
+            "printedName": "identifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ProdMobileCore12IdentifiableP10identifierSSvp",
+            "mangledName": "$s14ProdMobileCore12IdentifiableP10identifierSSvp",
+            "moduleName": "ProdMobileCore",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ProdMobileCore12IdentifiableP10identifierSSvg",
+                "mangledName": "$s14ProdMobileCore12IdentifiableP10identifierSSvg",
+                "moduleName": "ProdMobileCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : ProdMobileCore.Identifiable>",
+                "sugared_genericSig": "<Self where Self : ProdMobileCore.Identifiable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14ProdMobileCore12IdentifiableP",
+        "mangledName": "$s14ProdMobileCore12IdentifiableP",
+        "moduleName": "ProdMobileCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ProdMobileCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkingService",
+        "printedName": "NetworkingService",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkingService",
+                "printedName": "ProdMobileCore.NetworkingService",
+                "usr": "s:14ProdMobileCore17NetworkingServiceC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14ProdMobileCore17NetworkingServiceCACycfc",
+            "mangledName": "$s14ProdMobileCore17NetworkingServiceCACycfc",
+            "moduleName": "ProdMobileCore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(request:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IRequest",
+                "printedName": "ProdMobileCore.IRequest",
+                "usr": "s:14ProdMobileCore8IRequestP"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Foundation.Data, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Foundation.Data, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ProdMobileCore17NetworkingServiceC4load7request_yAA8IRequest_p_ys6ResultOy10Foundation4DataVs5Error_pGctF",
+            "mangledName": "$s14ProdMobileCore17NetworkingServiceC4load7request_yAA8IRequest_p_ys6ResultOy10Foundation4DataVs5Error_pGctF",
+            "moduleName": "ProdMobileCore",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14ProdMobileCore17NetworkingServiceC",
+        "mangledName": "$s14ProdMobileCore17NetworkingServiceC",
+        "moduleName": "ProdMobileCore",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "INetworkingService",
+            "printedName": "INetworkingService",
+            "usr": "s:14ProdMobileCore18INetworkingServiceP",
+            "mangledName": "$s14ProdMobileCore18INetworkingServiceP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ProdMobileCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkingError",
+        "printedName": "NetworkingError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "notFound",
+            "printedName": "notFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ProdMobileCore.NetworkingError.Type) -> ProdMobileCore.NetworkingError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkingError",
+                    "printedName": "ProdMobileCore.NetworkingError",
+                    "usr": "s:14ProdMobileCore15NetworkingErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ProdMobileCore.NetworkingError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkingError",
+                        "printedName": "ProdMobileCore.NetworkingError",
+                        "usr": "s:14ProdMobileCore15NetworkingErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14ProdMobileCore15NetworkingErrorO8notFoundyA2CmF",
+            "mangledName": "$s14ProdMobileCore15NetworkingErrorO8notFoundyA2CmF",
+            "moduleName": "ProdMobileCore"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidRequest",
+            "printedName": "invalidRequest",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ProdMobileCore.NetworkingError.Type) -> ProdMobileCore.NetworkingError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkingError",
+                    "printedName": "ProdMobileCore.NetworkingError",
+                    "usr": "s:14ProdMobileCore15NetworkingErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ProdMobileCore.NetworkingError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkingError",
+                        "printedName": "ProdMobileCore.NetworkingError",
+                        "usr": "s:14ProdMobileCore15NetworkingErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14ProdMobileCore15NetworkingErrorO14invalidRequestyA2CmF",
+            "mangledName": "$s14ProdMobileCore15NetworkingErrorO14invalidRequestyA2CmF",
+            "moduleName": "ProdMobileCore"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkingError",
+                "printedName": "ProdMobileCore.NetworkingError",
+                "usr": "s:14ProdMobileCore15NetworkingErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkingError",
+                "printedName": "ProdMobileCore.NetworkingError",
+                "usr": "s:14ProdMobileCore15NetworkingErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ProdMobileCore15NetworkingErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s14ProdMobileCore15NetworkingErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "ProdMobileCore",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ProdMobileCore15NetworkingErrorO9hashValueSivp",
+            "mangledName": "$s14ProdMobileCore15NetworkingErrorO9hashValueSivp",
+            "moduleName": "ProdMobileCore",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ProdMobileCore15NetworkingErrorO9hashValueSivg",
+                "mangledName": "$s14ProdMobileCore15NetworkingErrorO9hashValueSivg",
+                "moduleName": "ProdMobileCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ProdMobileCore15NetworkingErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s14ProdMobileCore15NetworkingErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "ProdMobileCore",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14ProdMobileCore15NetworkingErrorO",
+        "mangledName": "$s14ProdMobileCore15NetworkingErrorO",
+        "moduleName": "ProdMobileCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IRequest",
+        "printedName": "IRequest",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "baseUrl",
+            "printedName": "baseUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ProdMobileCore8IRequestP7baseUrlSSvp",
+            "mangledName": "$s14ProdMobileCore8IRequestP7baseUrlSSvp",
+            "moduleName": "ProdMobileCore",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ProdMobileCore8IRequestP7baseUrlSSvg",
+                "mangledName": "$s14ProdMobileCore8IRequestP7baseUrlSSvg",
+                "moduleName": "ProdMobileCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : ProdMobileCore.IRequest>",
+                "sugared_genericSig": "<Self where Self : ProdMobileCore.IRequest>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "methodPath",
+            "printedName": "methodPath",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ProdMobileCore8IRequestP10methodPathSSvp",
+            "mangledName": "$s14ProdMobileCore8IRequestP10methodPathSSvp",
+            "moduleName": "ProdMobileCore",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ProdMobileCore8IRequestP10methodPathSSvg",
+                "mangledName": "$s14ProdMobileCore8IRequestP10methodPathSSvg",
+                "moduleName": "ProdMobileCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : ProdMobileCore.IRequest>",
+                "sugared_genericSig": "<Self where Self : ProdMobileCore.IRequest>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "queryParams",
+            "printedName": "queryParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ProdMobileCore8IRequestP11queryParamsSDyS2SGvp",
+            "mangledName": "$s14ProdMobileCore8IRequestP11queryParamsSDyS2SGvp",
+            "moduleName": "ProdMobileCore",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ProdMobileCore8IRequestP11queryParamsSDyS2SGvg",
+                "mangledName": "$s14ProdMobileCore8IRequestP11queryParamsSDyS2SGvg",
+                "moduleName": "ProdMobileCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : ProdMobileCore.IRequest>",
+                "sugared_genericSig": "<Self where Self : ProdMobileCore.IRequest>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14ProdMobileCore8IRequestP",
+        "mangledName": "$s14ProdMobileCore8IRequestP",
+        "moduleName": "ProdMobileCore",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "INetworkingService",
+        "printedName": "INetworkingService",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(request:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IRequest",
+                "printedName": "ProdMobileCore.IRequest",
+                "usr": "s:14ProdMobileCore8IRequestP"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Foundation.Data, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Foundation.Data, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ProdMobileCore18INetworkingServiceP4load7request_yAA8IRequest_p_ys6ResultOy10Foundation4DataVs5Error_pGctF",
+            "mangledName": "$s14ProdMobileCore18INetworkingServiceP4load7request_yAA8IRequest_p_ys6ResultOy10Foundation4DataVs5Error_pGctF",
+            "moduleName": "ProdMobileCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : ProdMobileCore.INetworkingService>",
+            "sugared_genericSig": "<Self where Self : ProdMobileCore.INetworkingService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14ProdMobileCore18INetworkingServiceP",
+        "mangledName": "$s14ProdMobileCore18INetworkingServiceP",
+        "moduleName": "ProdMobileCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ProdMobileCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PersistenceStorage",
+        "printedName": "PersistenceStorage",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PersistenceStorage",
+                "printedName": "ProdMobileCore.PersistenceStorage",
+                "usr": "s:14ProdMobileCore18PersistenceStorageC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14ProdMobileCore18PersistenceStorageCACycfc",
+            "mangledName": "$s14ProdMobileCore18PersistenceStorageCACycfc",
+            "moduleName": "ProdMobileCore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "save",
+            "printedName": "save(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ProdMobileCore18PersistenceStorageC4saveyyxAA12IdentifiableRzlF",
+            "mangledName": "$s14ProdMobileCore18PersistenceStorageC4saveyyxAA12IdentifiableRzlF",
+            "moduleName": "ProdMobileCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : ProdMobileCore.Identifiable>",
+            "sugared_genericSig": "<Model where Model : ProdMobileCore.Identifiable>",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetch",
+            "printedName": "fetch(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ProdMobileCore18PersistenceStorageC5fetchySayxGxmAA12IdentifiableRzlF",
+            "mangledName": "$s14ProdMobileCore18PersistenceStorageC5fetchySayxGxmAA12IdentifiableRzlF",
+            "moduleName": "ProdMobileCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : ProdMobileCore.Identifiable>",
+            "sugared_genericSig": "<Model where Model : ProdMobileCore.Identifiable>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "delete",
+            "printedName": "delete(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ProdMobileCore18PersistenceStorageC6deleteyyxAA12IdentifiableRzlF",
+            "mangledName": "$s14ProdMobileCore18PersistenceStorageC6deleteyyxAA12IdentifiableRzlF",
+            "moduleName": "ProdMobileCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : ProdMobileCore.Identifiable>",
+            "sugared_genericSig": "<Model where Model : ProdMobileCore.Identifiable>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14ProdMobileCore18PersistenceStorageC",
+        "mangledName": "$s14ProdMobileCore18PersistenceStorageC",
+        "moduleName": "ProdMobileCore",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "IPersistenceStorage",
+            "printedName": "IPersistenceStorage",
+            "usr": "s:14ProdMobileCore19IPersistenceStorageP",
+            "mangledName": "$s14ProdMobileCore19IPersistenceStorageP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ProdMobileCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnalyticsService",
+        "printedName": "AnalyticsService",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnalyticsService",
+                "printedName": "ProdMobileCore.AnalyticsService",
+                "usr": "s:14ProdMobileCore16AnalyticsServiceC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14ProdMobileCore16AnalyticsServiceCACycfc",
+            "mangledName": "$s14ProdMobileCore16AnalyticsServiceCACycfc",
+            "moduleName": "ProdMobileCore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "send",
+            "printedName": "send(event:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnalyticsEvent",
+                "printedName": "ProdMobileCore.AnalyticsEvent",
+                "usr": "s:14ProdMobileCore14AnalyticsEventV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ProdMobileCore16AnalyticsServiceC4send5eventyAA0D5EventV_tF",
+            "mangledName": "$s14ProdMobileCore16AnalyticsServiceC4send5eventyAA0D5EventV_tF",
+            "moduleName": "ProdMobileCore",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14ProdMobileCore16AnalyticsServiceC",
+        "mangledName": "$s14ProdMobileCore16AnalyticsServiceC",
+        "moduleName": "ProdMobileCore",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "IAnalyticsService",
+            "printedName": "IAnalyticsService",
+            "usr": "s:14ProdMobileCore17IAnalyticsServiceP",
+            "mangledName": "$s14ProdMobileCore17IAnalyticsServiceP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ProdMobileCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnalyticsEvent",
+        "printedName": "AnalyticsEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ProdMobileCore14AnalyticsEventV4nameSSvp",
+            "mangledName": "$s14ProdMobileCore14AnalyticsEventV4nameSSvp",
+            "moduleName": "ProdMobileCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ProdMobileCore14AnalyticsEventV4nameSSvg",
+                "mangledName": "$s14ProdMobileCore14AnalyticsEventV4nameSSvg",
+                "moduleName": "ProdMobileCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "elementId",
+            "printedName": "elementId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ProdMobileCore14AnalyticsEventV9elementIdSSvp",
+            "mangledName": "$s14ProdMobileCore14AnalyticsEventV9elementIdSSvp",
+            "moduleName": "ProdMobileCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ProdMobileCore14AnalyticsEventV9elementIdSSvg",
+                "mangledName": "$s14ProdMobileCore14AnalyticsEventV9elementIdSSvg",
+                "moduleName": "ProdMobileCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "elementValue",
+            "printedName": "elementValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ProdMobileCore14AnalyticsEventV12elementValueSSvp",
+            "mangledName": "$s14ProdMobileCore14AnalyticsEventV12elementValueSSvp",
+            "moduleName": "ProdMobileCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ProdMobileCore14AnalyticsEventV12elementValueSSvg",
+                "mangledName": "$s14ProdMobileCore14AnalyticsEventV12elementValueSSvg",
+                "moduleName": "ProdMobileCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(name:elementId:elementValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnalyticsEvent",
+                "printedName": "ProdMobileCore.AnalyticsEvent",
+                "usr": "s:14ProdMobileCore14AnalyticsEventV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14ProdMobileCore14AnalyticsEventV4name9elementId0G5ValueACSS_S2Stcfc",
+            "mangledName": "$s14ProdMobileCore14AnalyticsEventV4name9elementId0G5ValueACSS_S2Stcfc",
+            "moduleName": "ProdMobileCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14ProdMobileCore14AnalyticsEventV",
+        "mangledName": "$s14ProdMobileCore14AnalyticsEventV",
+        "moduleName": "ProdMobileCore",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IAnalyticsService",
+        "printedName": "IAnalyticsService",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "send",
+            "printedName": "send(event:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnalyticsEvent",
+                "printedName": "ProdMobileCore.AnalyticsEvent",
+                "usr": "s:14ProdMobileCore14AnalyticsEventV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ProdMobileCore17IAnalyticsServiceP4send5eventyAA14AnalyticsEventV_tF",
+            "mangledName": "$s14ProdMobileCore17IAnalyticsServiceP4send5eventyAA14AnalyticsEventV_tF",
+            "moduleName": "ProdMobileCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : ProdMobileCore.IAnalyticsService>",
+            "sugared_genericSig": "<Self where Self : ProdMobileCore.IAnalyticsService>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14ProdMobileCore17IAnalyticsServiceP",
+        "mangledName": "$s14ProdMobileCore17IAnalyticsServiceP",
+        "moduleName": "ProdMobileCore",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIColor",
+        "printedName": "UIColor",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(hexString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So7UIColorC14ProdMobileCoreE9hexStringABSgSS_tcfc",
+            "mangledName": "$sSo7UIColorC14ProdMobileCoreE9hexStringABSgSS_tcfc",
+            "moduleName": "ProdMobileCore",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(hex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt64",
+                "printedName": "Swift.UInt64",
+                "usr": "s:s6UInt64V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So7UIColorC14ProdMobileCoreE3hexABs6UInt64V_tcfc",
+            "mangledName": "$sSo7UIColorC14ProdMobileCoreE3hexABs6UInt64V_tcfc",
+            "moduleName": "ProdMobileCore",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIColor",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIColor",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByColorLiteral",
+            "printedName": "_ExpressibleByColorLiteral",
+            "usr": "s:s26_ExpressibleByColorLiteralP",
+            "mangledName": "$ss26_ExpressibleByColorLiteralP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UInt64",
+        "printedName": "UInt64",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(hexString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UInt64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt64",
+                    "printedName": "Swift.UInt64",
+                    "usr": "s:s6UInt64V"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:s6UInt64V14ProdMobileCoreE9hexStringABSgSS_tcfc",
+            "mangledName": "$ss6UInt64V14ProdMobileCoreE9hexStringABSgSS_tcfc",
+            "moduleName": "ProdMobileCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:s6UInt64V",
+        "mangledName": "$ss6UInt64V",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "FixedWidthInteger",
+            "printedName": "FixedWidthInteger",
+            "usr": "s:s17FixedWidthIntegerP",
+            "mangledName": "$ss17FixedWidthIntegerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UnsignedInteger",
+            "printedName": "UnsignedInteger",
+            "usr": "s:SU",
+            "mangledName": "$sSU"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinIntegerLiteral",
+            "printedName": "_ExpressibleByBuiltinIntegerLiteral",
+            "usr": "s:s35_ExpressibleByBuiltinIntegerLiteralP",
+            "mangledName": "$ss35_ExpressibleByBuiltinIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BinaryInteger",
+            "printedName": "BinaryInteger",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Words",
+                "printedName": "Words",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Words",
+                    "printedName": "Swift.UInt64.Words",
+                    "usr": "s:s6UInt64V5WordsV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sz",
+            "mangledName": "$sSz"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Numeric",
+            "printedName": "Numeric",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Magnitude",
+                "printedName": "Magnitude",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt64",
+                    "printedName": "Swift.UInt64",
+                    "usr": "s:s6UInt64V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sj",
+            "mangledName": "$sSj"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Strideable",
+            "printedName": "Strideable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Stride",
+                "printedName": "Stride",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sx",
+            "mangledName": "$sSx"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdditiveArithmetic",
+            "printedName": "AdditiveArithmetic",
+            "usr": "s:s18AdditiveArithmeticP",
+            "mangledName": "$ss18AdditiveArithmeticP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByIntegerLiteral",
+            "printedName": "ExpressibleByIntegerLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "IntegerLiteralType",
+                "printedName": "IntegerLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt64",
+                    "printedName": "Swift.UInt64",
+                    "usr": "s:s6UInt64V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s27ExpressibleByIntegerLiteralP",
+            "mangledName": "$ss27ExpressibleByIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CVarArgAligned",
+            "printedName": "_CVarArgAligned",
+            "usr": "s:s15_CVarArgAlignedP",
+            "mangledName": "$ss15_CVarArgAlignedP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SIMDScalar",
+            "printedName": "SIMDScalar",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SIMDMaskScalar",
+                "printedName": "SIMDMaskScalar",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD2Storage",
+                "printedName": "SIMD2Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD2Storage",
+                    "printedName": "Swift.UInt64.SIMD2Storage",
+                    "usr": "s:s6UInt64V12SIMD2StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD4Storage",
+                "printedName": "SIMD4Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD4Storage",
+                    "printedName": "Swift.UInt64.SIMD4Storage",
+                    "usr": "s:s6UInt64V12SIMD4StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD8Storage",
+                "printedName": "SIMD8Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD8Storage",
+                    "printedName": "Swift.UInt64.SIMD8Storage",
+                    "usr": "s:s6UInt64V12SIMD8StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD16Storage",
+                "printedName": "SIMD16Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD16Storage",
+                    "printedName": "Swift.UInt64.SIMD16Storage",
+                    "usr": "s:s6UInt64V13SIMD16StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD32Storage",
+                "printedName": "SIMD32Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD32Storage",
+                    "printedName": "Swift.UInt64.SIMD32Storage",
+                    "usr": "s:s6UInt64V13SIMD32StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD64Storage",
+                "printedName": "SIMD64Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD64Storage",
+                    "printedName": "Swift.UInt64.SIMD64Storage",
+                    "usr": "s:s6UInt64V13SIMD64StorageV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s10SIMDScalarP",
+            "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt64",
+                    "printedName": "Swift.UInt64",
+                    "usr": "s:s6UInt64V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation18_FormatSpecifiableP",
+            "mangledName": "$s10Foundation18_FormatSpecifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/mi.kuznetsov\/build\/XcodeProjects\/ProdMobileCore\/ProdMobileCore\/Networking\/NetworkingService.swift",
+      "kind": "StringLiteral",
+      "offset": 2238,
+      "length": 367,
+      "value": "\"{\n    \"id\": \"banner_13231\",\n    \"banner_info\": {\n        \"title\": \"Подписка Elite – в 2 раза больше бонусов\",\n        \"description\": \"Еще больше выгоды с нашей новой подпиской\",\n        \"image_id\": \"bonus_icon\",\n        \"background_color\": \"FFF6D4\"\n    }\n}\""
+    },
+    {
+      "filePath": "\/Users\/mi.kuznetsov\/build\/XcodeProjects\/ProdMobileCore\/ProdMobileCore\/Networking\/NetworkingService.swift",
+      "kind": "StringLiteral",
+      "offset": 2662,
+      "length": 1914,
+      "value": "\"[\n    {\n        \"objectId\": \"offer_13647283-lod\",\n        \"objectDetails\": {\n            \"id\": \"13647283-lod\",\n            \"offer_image\": \"offer-cart-3132\",\n            \"supplier_info\": {\n                \"name\": \"Покупки в шестерочке\",\n                \"base_color\": \"FFC6C6\"\n            },\n            \"description\": {\n                \"short\": \"Совершайте покупки в  магазинах шесторочки через  сайт с промокодом\"\n            },\n            \"status\": \"NEW\",\n            \"type\": \"CREDIT\",\n            \"bonuses\": {\n                \"type\": \"cashback\",\n                \"value\": 5\n            },\n            \"restrictions\": [\n                {\n                    \"type\": \"for_bundles\",\n                    \"value\": {\n                        \"bundles_ids\": [    \"T-PREMIUM\",    \"ALL-ELITE\"],\n                        \"newValue\": 7\n                    }\n                }\n            ]\n        }\n    },\n    {\n        \"objectId\": \"offer_8374833-ope\",\n        \"objectDetails\": {\n            \"id\": \"8374833-ope\",\n            \"offer_image\": \"offer-cart-3132\",\n            \"supplier_info\": {\n                \"name\": \"Ноготочки у Василисы\",\n                \"base_color\": \"F7BFE6\"\n            },\n            \"description\": {\n                \"short\": \"Получайте за  каждоепосещение по 200  баллов в нашейсистеме   лояльности\"\n            },\n            \"status\": \"OLD\",\n            \"type\": \"CREDIT\",\n            \"bonuses\": {\n                \"type\": \"special_points\",\n                \"value\": 200\n            },\n            \"restrictions\": []\n        }\n    }\n]\""
+    },
+    {
+      "filePath": "\/Users\/mi.kuznetsov\/build\/XcodeProjects\/ProdMobileCore\/ProdMobileCore\/Networking\/NetworkingService.swift",
+      "kind": "StringLiteral",
+      "offset": 4629,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mi.kuznetsov\/build\/XcodeProjects\/ProdMobileCore\/ProdMobileCore\/Networking\/NetworkingService.swift",
+      "kind": "StringLiteral",
+      "offset": 4667,
+      "length": 150,
+      "value": "\"{\n    \"id\": \"test-user\",\n    \"name\": \"Иван\",\n    \"surname\": \"Андреев\",\n    \"bundle_code\": \"T-PREMIUM\"\n}\""
+    },
+    {
+      "filePath": "\/Users\/mi.kuznetsov\/build\/XcodeProjects\/ProdMobileCore\/ProdMobileCore\/Networking\/NetworkingService.swift",
+      "kind": "StringLiteral",
+      "offset": 4878,
+      "length": 481,
+      "value": "\"{\n    \"operations\": [\n        {\n            \"currency\": \"special_point\",\n            \"value\": 3000,\n            \"direction\": \"receipt\"\n        },\n        {\n            \"currency\": \"special_point\",\n            \"value\": 1000,\n            \"direction\": \"withdrawal\"\n        },\n        {\n            \"currency\": \"rub\",\n            \"value\": 1500,\n            \"direction\": \"receipt\"\n        }\n    ]\n}\""
+    },
+    {
+      "filePath": "\/Users\/mi.kuznetsov\/build\/XcodeProjects\/ProdMobileCore\/ProdMobileCore\/Networking\/NetworkingService.swift",
+      "kind": "StringLiteral",
+      "offset": 5413,
+      "length": 183,
+      "value": "\"[\n    {\n        \"code\": \"T-PREMIUM\",\n        \"name\": \"PREMIUM\",\n        \"base_color\": \"6E4EB1\",\n        \"secondary_color\": \"FFFFFF\"\n    }\n]\""
+    },
+    {
+      "filePath": "\/Users\/mi.kuznetsov\/build\/XcodeProjects\/ProdMobileCore\/ProdMobileCore\/Networking\/NetworkingService.swift",
+      "kind": "StringLiteral",
+      "offset": 5708,
+      "length": 1034,
+      "value": "\"{\n    \"id\": \"13647283-lod\",\n    \"offer_image\": \"offer-cart-3132\",\n    \"supplier_info\": {\n        \"name\": \"Покупки в шестерочке\",\n        \"base_color\": \"FFC6C6\"\n    },\n    \"description\": {\n        \"short\": \"Совершайте покупки в магазинах шесторочки через сайт с промокодом\",\n        \"full\": \"Данных нет, но вы держитесь\"\n    },\n    \"status\": \"NEW\",\n    \"type\": \"CREDIT\",\n    \"bonuses\": {\n        \"type\": \"cashback\",\n        \"value\": 5\n    },\n    \"restrictions\": [\n        {\n            \"type\": \"for_bundles\",\n            \"value\": {\n                \"bundles_ids\": [ \"T-PREMIUM\", \"ALL-ELITE\"],\n                \"newValue\": 7\n            }\n        }\n    ],\n    \"terms\": [\n        {\n            \"type\": \"endDate\",\n            \"value\": \"12.02.2026\"\n        },\n    ],\n    \"promocode\": \"JAHDJAKJ\"\n}\""
+    },
+    {
+      "filePath": "\/Users\/mi.kuznetsov\/build\/XcodeProjects\/ProdMobileCore\/ProdMobileCore\/Networking\/NetworkingService.swift",
+      "kind": "StringLiteral",
+      "offset": 6811,
+      "length": 796,
+      "value": "\"{\n    \"id\": \"13647283-lod\",\n    \"offer_image\": \"offer-cart-3132\",\n    \"supplier_info\": {\n        \"name\": \"Ноготочки у Василисы\",\n        \"base_color\": \"F7BFE6\"\n    },\n    \"description\": {\n        \"short\": \"Совершайте покупки в магазинах шесторочки через сайт с промокодом\",\n        \"full\": \"Это притча...\"\n    },\n    \"status\": \"OLD\",\n    \"type\": \"CREDIT\",\n    \"bonuses\": {\n        \"type\": \"special_points\",\n        \"value\": 200\n    },\n    \"restrictions\": [],\n    \"terms\": [\n        {\n            \"type\": \"endDate\",\n            \"value\": \"12.02.2026\"\n        },\n    ],\n    \"promocode\": \"JAHDJAKJ\"\n}\""
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+framework module ProdMobileCore {
+  umbrella header "ProdMobileCore.h"
+
+  export *
+  module * { export * }
+}
+
+module ProdMobileCore.Swift {
+  header "ProdMobileCore-Swift.h"
+  requires objc
+}
