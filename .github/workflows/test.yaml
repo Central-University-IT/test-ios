@@ -19,7 +19,6 @@ jobs:
         with:
           version: 1.14.3
 
-      # TODO: add lock file, replace `pod update` with `pod update Solution`
       - run: pod install
       - run: pod update
 
@@ -33,8 +32,6 @@ jobs:
 
       - run: gem install trainer --version 0.9.1
       - run: trainer --path ./build -o . -f junit.xml
-
-      - run: cat junit.xml
 
       - uses: Central-University-IT/junit-action@main
         with:
