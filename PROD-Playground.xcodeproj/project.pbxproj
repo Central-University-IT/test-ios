@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8791A7662B3C3783001A2CCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8791A7652B3C3783001A2CCC /* AppDelegate.swift */; };
 		8791A7682B3C3783001A2CCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8791A7672B3C3783001A2CCC /* SceneDelegate.swift */; };
+		8791A7982B3C3E68001A2CCC /* SnapshotSolutionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8791A7972B3C3E68001A2CCC /* SnapshotSolutionTest.swift */; };
+		8791A79A2B3C408B001A2CCC /* SnapshotUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8791A7992B3C408B001A2CCC /* SnapshotUtils.swift */; };
 		87B5C41C2B8543E8003E8D76 /* RootAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B5C41B2B8543E8003E8D76 /* RootAssembly.swift */; };
 		9F14D4E3C733E51FC07F9927 /* Pods_PROD_PlaygroundTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7DF106277360C7E5E6689E2 /* Pods_PROD_PlaygroundTests.framework */; };
 		E74E7059643A671FDCBA078B /* Pods_PROD_Playground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CA4D4B7A13ADF7ED9F17DA /* Pods_PROD_Playground.framework */; };
@@ -50,6 +52,8 @@
 		8791A76E2B3C3784001A2CCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8791A7732B3C3784001A2CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8791A7782B3C3784001A2CCC /* PROD-PlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PROD-PlaygroundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8791A7972B3C3E68001A2CCC /* SnapshotSolutionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotSolutionTest.swift; sourceTree = "<group>"; };
+		8791A7992B3C408B001A2CCC /* SnapshotUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotUtils.swift; sourceTree = "<group>"; };
 		87B5C41B2B8543E8003E8D76 /* RootAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootAssembly.swift; sourceTree = "<group>"; };
 		87C6C4A82B88FBC60015CE54 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9CDF5023569827439F0CC60E /* Pods-PROD-Playground-PROD-PlaygroundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PROD-Playground-PROD-PlaygroundTests.release.xcconfig"; path = "Target Support Files/Pods-PROD-Playground-PROD-PlaygroundTests/Pods-PROD-Playground-PROD-PlaygroundTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -173,8 +177,18 @@
 		8791A77B2B3C3784001A2CCC /* PROD-PlaygroundTests */ = {
 			isa = PBXGroup;
 			children = (
+				87ADE2242B4DD2F700503CE6 /* SnapshotTests */,
 			);
 			path = "PROD-PlaygroundTests";
+			sourceTree = "<group>";
+		};
+		87ADE2242B4DD2F700503CE6 /* SnapshotTests */ = {
+			isa = PBXGroup;
+			children = (
+				8791A7992B3C408B001A2CCC /* SnapshotUtils.swift */,
+				8791A7972B3C3E68001A2CCC /* SnapshotSolutionTest.swift */,
+			);
+			path = SnapshotTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -380,6 +394,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8791A79A2B3C408B001A2CCC /* SnapshotUtils.swift in Sources */,
+				8791A7982B3C3E68001A2CCC /* SnapshotSolutionTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
